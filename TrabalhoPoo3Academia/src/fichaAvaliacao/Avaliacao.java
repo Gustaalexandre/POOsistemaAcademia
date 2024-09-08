@@ -1,9 +1,9 @@
 package fichaAvaliacao;
-import java.util.Date;
+import java.time.LocalDate;
 
 public class Avaliacao {
     private long CodAva;
-    private Date dtAvaliacao;
+    private LocalDate dtAvaliacao;
     private double peso;
     private double altura;
     private double perctGord;
