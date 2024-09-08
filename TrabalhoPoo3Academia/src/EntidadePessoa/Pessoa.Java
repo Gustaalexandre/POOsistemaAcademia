@@ -30,7 +30,7 @@ public abstract class Pessoa {
         System.out.println("Nome: " + getNome() + "\tSobrenome: " + getSNome() + "\tsexo: " + sexo);
         System.out.println(" ----------------------- ");
     }
-
+    
     String getNome() {
         return nome;
     }
